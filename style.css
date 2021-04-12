@@ -1,0 +1,98 @@
+ 
+ body, p{
+margin: 0;
+padding: 0;
+font-size: 14px;
+font-family: arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    margin-left: auto; 
+    padding: 1em;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.googledot {
+    height: 20px;
+    cursor: pointer;
+}
+
+
+.download {
+    height: 25px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+main {
+    width: 50%;
+    margin: 5.4em auto; 
+    text-align: center;
+}
+
+input {
+    width: 80%;
+    padding: 1em;
+    border-radius: 25px;
+    border: 1px solid gray;
+}
+
+.btn {
+    margin-top: 1em;
+}
+
+.btn button {
+    padding: 1em;
+    border: none;
+    background-color: rgb(248, 249, 250);
+    color: rgb(60, 64, 67);
+    border-bottom-style: solid;
+    border-bottom-color: rgb(248, 249, 250);
+
+}
+
+.btn button:hover {
+box-shadow: 1px 1px rgb(212, 212, 212);
+border: 1px solid rgb(212, 212, 212);
+}
+
+footer {
+    background-color: rgb(240, 236, 236);
+    color: #70757a;
+}
+
+.footertop {
+    padding: 1em;
+}
+
+.footerbottom {
+    padding: 1em; 
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #dadce0;
+}
+
+.footerbottom a {
+    text-decoration: none;  
+    color: #70757a; 
+}
+
+.left a {
+    margin-right: 1em;
+}
+
+.right a{
+    margin-left: 1em;
+}
+
+a:hover {
+    text-decoration: underline;
+}
